@@ -42,6 +42,10 @@ class Colours {
     return "\033[" . Colours::$background[$colour] . "m";
   }
 
+  static public function reset() {
+    return "\033[0m";
+  }
+
   static public function highlight_sql($sql) {
 
     $sql_keywords = array(
