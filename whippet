@@ -81,6 +81,16 @@ else
     done
   fi
 fi
+
+if [ -z "$php" ]
+then
+  echo >&2 "$0: Could not find php executable. Set WHIPPET_PHP."
+  exit 1
+fi
+if ! "$php" --version | egrep -q "PHP 5\.([4-9]|\d{2,})\."
+then
+  echo >&2 "$0: We need PHP 5.4 or greater, but found $php. Set WHIPPET_PHP."
+  exit 1
 fi
 
 # Check to see if the user has provided a php.ini file or wp-cli.ini file in any conf dir
