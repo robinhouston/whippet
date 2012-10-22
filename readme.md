@@ -10,7 +10,7 @@ Apache and without having to set up a virtualhost. You don't even have to have
 your WordPress files -- Whippet will happily run from a wp-content folder by itself.
 
 Note: Whippet is Alpha software. We're sure it still has problems that need to be
-fixed, and we know the install process is a bit labourious. Please do let us know
+fixed, and we know the install process is a bit laborious. Please do let us know
 how you get on, or open an issue if you have problems. Thanks!
 
 
