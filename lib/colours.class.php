@@ -20,6 +20,7 @@ class Colours {
     'bold_cyan' => '1;36',
     'white' => '0;37',
     'bold_grey' => '0;37',
+    'default' => '0;39',
   );
 
   static private $background = array(
