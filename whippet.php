@@ -331,7 +331,7 @@ function signal_handler($signal) {
     unlink("{$options['wp-root']}/wp-content");
   }
 
-  echo "\nQuitting.\n\033[0m";
+  echo Colours::reset() . "\nQuitting.\n";
 
   exit(0);
 }
