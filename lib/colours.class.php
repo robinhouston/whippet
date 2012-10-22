@@ -4,23 +4,23 @@ class Colours {
   /* Colours
   */
   static private $foreground = array(
-    'black' => '0;30',
+    'black' => '22;30',
     'dark_grey' => '1;30',
-    'red' => '0;31',
+    'red' => '22;31',
     'bold_red' => '1;31',
-    'green' => '0;32',
+    'green' => '22;32',
     'bold_green' => '1;32',
-    'brown' => '0;33',
+    'brown' => '22;33',
     'yellow' => '1;33',
-    'blue' => '0;34',
+    'blue' => '22;34',
     'bold_blue' => '1;34',
-    'purple' => '0;35',
+    'purple' => '22;35',
     'bold_purple' => '1;35',
-    'cyan' => '0;36',
+    'cyan' => '22;36',
     'bold_cyan' => '1;36',
-    'white' => '0;37',
-    'bold_grey' => '0;37',
-    'default' => '0;39',
+    'white' => '22;37',
+    'bold_grey' => '22;37',
+    'default' => '22;39',
   );
 
   static private $background = array(
